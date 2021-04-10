@@ -18,7 +18,7 @@ public class Main{
 		e.add("not",2);
 		e.add("xor",1,2);
 		e.measure(1,3);
-		e.draw2();
+		e.draw();
 		boolean[] o=e.evaluate(new boolean[]{true,true,false,true});
 		System.out.printf("%b %b\n",o[0],o[1]);
 	}
