@@ -138,6 +138,7 @@ public class LogicEngine{
 	}
 
 
+
 	private String _center(String s,int l){
 		int a=(l-s.length())/2;
 		if (a==0){
@@ -145,6 +146,7 @@ public class LogicEngine{
 		}
 		return String.format("%"+a+"s%-"+(l-a)+"s","",s);
 	}
+
 
 
 	private String _charAt(String o,int i,String chr){
